@@ -10,3 +10,5 @@ calib/
 calibration_dataset*
 out*/
 __pycache__/
+eval/imagenette2-320*
+eval/coco128*

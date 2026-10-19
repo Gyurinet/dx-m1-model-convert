@@ -1,0 +1,6 @@
+# 변환용 PC(x86_64). GPU가 없으면 torch·torchvision은 먼저 CPU판으로 설치한다:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+dx-com==2.4.1
+onnx
+onnxruntime
+ultralytics
