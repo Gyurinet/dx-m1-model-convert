@@ -84,3 +84,7 @@ python detect_map.py det_ref.npz NPU=npu_yolo11n.npy "NPU TopK"=npu_yolo11n_topk
 - 변환용 PC: AMD Ryzen 7 9700X, 메모리 30GB, Ubuntu 24.04.4, Python 3.12.3, GPU 미사용
 - `dx-com` 2.4.1, `torch` 2.14.1+cpu, `torchvision` 0.29.1+cpu, `ultralytics` 8.4.178, `onnx` 1.23.2, `onnxruntime` 1.31.0
 - 실행 장비: DX-RT 3.4.2, `dx_engine` 3.4.2(Python 3.13)
+
+## 라이선스
+
+규리넷 주식회사의 독점 라이선스입니다. 제품을 공급받은 고객은 제품의 개발·시험·운영 목적으로 사용·수정할 수 있으며, 서면 허가 없이 제3자에게 배포할 수 없습니다. 자세한 조건은 `LICENSE`를 참고합니다. `eval/detect_map.py`는 mAP 계산에 Ultralytics 패키지(AGPL-3.0)를 사용하므로, 이 스크립트를 배포하거나 제품에 포함할 때는 AGPL-3.0 조건을 확인합니다.
